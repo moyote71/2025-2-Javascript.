@@ -14,6 +14,19 @@ async function main() {
     console.log("No es múltiplo de 3 ni de 5");
   }
 
+  switch(true){
+    case  number%3===0 && number%5===0:
+      console.log("Es multiplo de 3 y 5");
+      break;
+    case  number%3===0 && number%5===0:
+      console.log("Es multiplo de 3");
+      break;
+    case  number%3===0 && number%5===0:
+      console.log("Es multiplo de 5");
+      break;
+     default:
+       console.log("No es múltiplo de 3 o 5");
+  }
   // TODO : Convertir a switch
   //const multiplo5 = number % 5 === 0;
   //const multiplo3 = number % 3 === 0;
